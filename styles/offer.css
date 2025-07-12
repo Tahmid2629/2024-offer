@@ -1,0 +1,132 @@
+
+/* Shared styles */
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+}
+
+/* Header Styles */
+.hero-div{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 1320px;
+    margin: 50px auto;
+    padding: 177px 0px;
+    border-radius: 16px;
+    background: url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-blend-mode: darken;
+}
+.hero-title{
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+}
+.hero-description{
+    font-size: 72px;
+    font-weight: 900;
+    color: white;
+}
+
+/* Holiday Section Styles */
+.holiday-offer{
+    margin: 120px auto;
+    text-align: center;
+    align-items: center;
+}
+.holiday-off{
+    font-size: 88px;
+    font-weight: 700;
+    color: #FF0000;
+}
+.holiday-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.holiday-description{
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+}
+.new-year-image{
+    width: 803px;
+    height: 500px;
+}
+/* Party Section Style*/
+.party{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 94px;
+    max-width: 1320px;
+    margin: 0px auto;
+    background-image: url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    margin-bottom: 100px;
+}
+.party-side-img{
+    width: 320px;
+    height: 464px;
+    padding-right: 138px;
+}
+.party-title{
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 126px 0px 0px 126px;
+    letter-spacing: 11px;
+}
+.party-description{
+    font-size: 18px;
+    color: #ffffffc8;
+    padding: 0px 0px 0px 126px;
+    display: inline-block;
+
+}
+.party-join{
+    font-size: 20;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding:48px 0px 142px 185px;
+}
+/* Event Details Section Styles */
+.event{
+    max-width: 1320px;
+    margin: 0px auto;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(#ff00001e , #ff000000);
+    padding: 100px 0px;
+}
+.place , .date , .time{
+    font-size: 32px;
+    font-weight: 600;
+    color: #070211;
+}
+.event-info-title{
+    color: #FF0000;
+}
+.btn-primary{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
