@@ -130,3 +130,39 @@
     border-radius: 8px;
     cursor: pointer;
 }
+/* New Offer Section */
+.new-offers{
+    max-width: 1320px;
+    margin: 120px auto;
+    display: flex;
+    gap: 119px 167px;
+    align-items: center;
+    justify-content: center;
+}
+.offer-img{
+    size: 463px;
+    padding: 48px;
+    border: 18px solid #FF0000;
+    border-radius: 50%;
+}
+.coming-soon-info{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.coming-soon-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin: 0px;
+}
+.coming-soon-description{
+    font-size: 20px;
+    color: #07021174;
+}
+.year{
+    font-size: 48px;
+    font-weight: 700;
+    color: #FF0000;
+    margin: 0px;
+}
