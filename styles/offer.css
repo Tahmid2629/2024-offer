@@ -166,3 +166,128 @@
     color: #FF0000;
     margin: 0px;
 }
+/* Holiday Sale Section Styles */
+.holiday-sale{
+    max-width: 1320px;
+    margin: 0px auto;
+    text-align: center;
+}
+.holiday-sale-info{
+    font-size: 24px;
+    color: #070211;
+}
+.holiday-sale-title{
+    font-size: 72px;
+    font-weight: 900;
+    color: #070211;
+    margin: 0px;
+}
+.holiday-sale-title-head{
+    color: #FF0000;
+}
+.holiday-sale-description{
+    padding: 10px 126px 64px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0702116b
+}
+.discount-image{
+    position: relative;
+    top: -150px;
+    left: 200px;
+}
+.holiday-sale-images{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.holiday-sale-image-border{
+    display:block;
+    position: relative;
+    top: 200px;
+    left: -1100px;
+    z-index: 1;
+}
+.box-image{
+    z-index: 10;
+}
+/* Portfolio Section Styles */
+.portfolio{
+    max-width: 1320px;
+    margin:120px auto;
+}
+.portfolio-info{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.portfolio-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin: 0px;
+}
+.portfolio-description{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0702116b
+}
+.portfolio-images-wrap{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.portfolio-image{
+    border-radius: 16px;
+    margin: 24px 0px;
+}
+/* Newslestter Section Styles */
+.newsletter{
+    max-width: 1320px;
+    margin: 0px auto;
+    text-align: center;
+    align-items: center;
+    background-color: #ff000010;
+    padding: 80px auto;
+    border-radius: 16px;
+}
+.newsletter-content{
+    margin: 80px auto;
+}
+.newsletter-content{
+    padding-top: 80px;
+}
+.newsletter-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin: 0px;
+    
+}
+.newsletter-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: #0702116b
+}
+.newsletter-form{
+    margin: 48px auto 80px;
+    padding-bottom: 80px;
+}
+.form-input{
+    max-width: 4388px;
+    font-size: 18px;
+    color: #0702116b;
+    padding: 25px 30px;
+    border: none;border-radius: 50px 0px 0px 50px;  
+}
+.form-label{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    padding: 24px 56px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+}
