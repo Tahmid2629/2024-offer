@@ -134,6 +134,7 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    margin-top: 20px; ;
 }
 /* New Offer Section */
 .new-offers{
